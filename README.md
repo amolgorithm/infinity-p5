@@ -1,6 +1,7 @@
 # Infinity p5
 A straightforward online p5.js editor that simplifies the p5 process. <br>
 Infinity p5 also possesses a preview div that shows the code in action when the execute button is pressed.
+Please read the usage requirements below, as it is crucial for the editor to work.
 <br><br>
 ![](./examples/first_glance.png)
 <br><br>
@@ -21,6 +22,9 @@ Infinity p5 also possesses a preview div that shows the code in action when the 
 - Editor has built-in console that reponds to console.log() and console.clear(), but not the rest (e.g. console.err())
 <br><br>
 ![](./examples/console.png)
+<br><br><br>
+## Usage Requirements
+**- Your code in editor must always contain an addCanvas function and a cdraw function for it to work.**
 <br><br><br>
 
 **Try the Infinity p5 out yourself!**
